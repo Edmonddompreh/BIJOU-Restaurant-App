@@ -34,6 +34,8 @@ class WelcomeButton extends StatelessWidget {
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(50),
               )),
+
+          // if you  add some new changes
           child: Text(
             buttonText!,
             textAlign: TextAlign.center,

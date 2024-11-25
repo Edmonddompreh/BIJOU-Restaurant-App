@@ -29,12 +29,12 @@ class BijouWelcomeScreen extends StatelessWidget {
                         text: 'Welcome To Bijou!\n',
                         style: TextStyle(
                           fontSize: 45.0,
+                          color: Colors.white,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
                       TextSpan(
-                        text:
-                            'Enter personal details to access your Bijou account.',
+                        text: 'Enter details to access your Bijou account.',
                         style: TextStyle(
                           fontSize: 20.0,
                           color: Colors.grey[600],
@@ -55,14 +55,14 @@ class BijouWelcomeScreen extends StatelessWidget {
                   const Expanded(
                     child: WelcomeButton(
                         buttonText: 'Sign in',
-                        onTap: SigninScreen(),
+                        onTap: SignInScreen(),
                         color: Colors.transparent,
                         textColor: Colors.white),
                   ),
                   Expanded(
                     child: WelcomeButton(
                       buttonText: 'Sign up',
-                      onTap: const SignupScreen(),
+                      onTap: const SignUpScreen(),
                       color: Colors.deepOrange,
                       textColor: lightColorScheme.primary,
                     ),
