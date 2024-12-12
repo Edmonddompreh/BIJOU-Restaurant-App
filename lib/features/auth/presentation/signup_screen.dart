@@ -163,7 +163,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             activeColor: lightColorScheme.primary,
                           ),
                           const Text(
-                            'I agree to the processing of ',
+                            'I agree ',
                             style: TextStyle(
                               color: Colors.black45,
                             ),

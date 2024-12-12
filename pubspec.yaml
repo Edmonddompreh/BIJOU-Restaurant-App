@@ -32,9 +32,24 @@ flutter:
 
    #To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/bijou Welcome_Screen.jpg
     - assets/images/bijou Welcome_screen black.jpg
-    - assets/images/bijou Welcome_screen pizza.jpg
+    - assets/images/bg1.png
+    - assets/images/bg2HD.png
+    - assets/images/bg3.png
+    - assets/images/bg4.png
+    - assets/images/bg5.png
+    - assets/images/bg6.png
+    - assets/images/bg7.png
+    - assets/images/bg8.png
+    - assets/images/bgAI.png
+    - assets/images/logoblack.png
+    - assets/images/logosymbol.png
+    - assets/images/logowhite.png
+    - assets/images/pizza.png
+    - assets/images/bgHD.png
+    
+    
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -37,6 +37,7 @@ class BijouWelcomeScreen extends StatelessWidget {
                         text: 'Enter details to access your Bijou account.',
                         style: TextStyle(
                           fontSize: 20.0,
+                          fontFamily: "courier",
                           color: Colors.grey[600],
                         ),
                       ),

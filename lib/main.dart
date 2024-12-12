@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:myfirstapp/features/auth/presentation/bijou_welcome_screen.dart';
+import 'package:myfirstapp/features/Home/homescreen.dart';
+//import 'package:myfirstapp/features/auth/presentation/bijou_welcome_screen.dart';
 import 'package:myfirstapp/respositories/restaurant_repository.dart';
 import 'models/restaurant.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BijouWelcomeScreen(),
+      home: Homescreen(),
     );
   }
 }
